@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E472CE0224D976900808AD1 /* UIColorHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E472CDF224D976900808AD1 /* UIColorHex.swift */; };
+		9E472CE4224DB38500808AD1 /* AddBMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E472CE3224DB38500808AD1 /* AddBMViewController.swift */; };
 		9EF0A9C4224AF4D100668019 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF0A9C3224AF4D100668019 /* AppDelegate.swift */; };
 		9EF0A9C6224AF4D100668019 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF0A9C5224AF4D100668019 /* ViewController.swift */; };
 		9EF0A9C9224AF4D100668019 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EF0A9C7224AF4D100668019 /* Main.storyboard */; };
@@ -14,6 +16,8 @@
 		9EF0A9CE224AF4D300668019 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EF0A9CC224AF4D300668019 /* LaunchScreen.storyboard */; };
 		9EF0A9D9224AF4D300668019 /* DocViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF0A9D8224AF4D300668019 /* DocViewTests.swift */; };
 		9EF0A9E4224AF4D300668019 /* DocViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF0A9E3224AF4D300668019 /* DocViewUITests.swift */; };
+		9EF0A9F3224B107E00668019 /* DocCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF0A9F1224B107E00668019 /* DocCollectionViewCell.swift */; };
+		9EF0A9F4224B107E00668019 /* DocCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EF0A9F2224B107E00668019 /* DocCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9E472CDF224D976900808AD1 /* UIColorHex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorHex.swift; sourceTree = "<group>"; };
+		9E472CE1224DACF800808AD1 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		9E472CE2224DACF800808AD1 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		9E472CE3224DB38500808AD1 /* AddBMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBMViewController.swift; sourceTree = "<group>"; };
 		9EF0A9C0224AF4D100668019 /* DocView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EF0A9C3224AF4D100668019 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EF0A9C5224AF4D100668019 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,8 @@
 		9EF0A9DF224AF4D300668019 /* DocViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DocViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EF0A9E3224AF4D300668019 /* DocViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocViewUITests.swift; sourceTree = "<group>"; };
 		9EF0A9E5224AF4D300668019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EF0A9F1224B107E00668019 /* DocCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocCollectionViewCell.swift; sourceTree = "<group>"; };
+		9EF0A9F2224B107E00668019 /* DocCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DocCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +110,10 @@
 				9EF0A9C3224AF4D100668019 /* AppDelegate.swift */,
 				9EF0A9C5224AF4D100668019 /* ViewController.swift */,
 				9EF0A9C7224AF4D100668019 /* Main.storyboard */,
+				9E472CDF224D976900808AD1 /* UIColorHex.swift */,
+				9E472CE3224DB38500808AD1 /* AddBMViewController.swift */,
+				9EF0A9F1224B107E00668019 /* DocCollectionViewCell.swift */,
+				9EF0A9F2224B107E00668019 /* DocCollectionViewCell.xib */,
 				9EF0A9CA224AF4D300668019 /* Assets.xcassets */,
 				9EF0A9CC224AF4D300668019 /* LaunchScreen.storyboard */,
 				9EF0A9CF224AF4D300668019 /* Info.plist */,
@@ -209,7 +223,6 @@
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
 			);
 			mainGroup = 9EF0A9B7224AF4D100668019;
@@ -232,6 +245,7 @@
 				9EF0A9CE224AF4D300668019 /* LaunchScreen.storyboard in Resources */,
 				9EF0A9CB224AF4D300668019 /* Assets.xcassets in Resources */,
 				9EF0A9C9224AF4D100668019 /* Main.storyboard in Resources */,
+				9EF0A9F4224B107E00668019 /* DocCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +271,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EF0A9C6224AF4D100668019 /* ViewController.swift in Sources */,
+				9E472CE0224D976900808AD1 /* UIColorHex.swift in Sources */,
+				9EF0A9F3224B107E00668019 /* DocCollectionViewCell.swift in Sources */,
+				9E472CE4224DB38500808AD1 /* AddBMViewController.swift in Sources */,
 				9EF0A9C4224AF4D100668019 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +314,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				9EF0A9C8224AF4D100668019 /* Base */,
+				9E472CE1224DACF800808AD1 /* ja */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -305,6 +323,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				9EF0A9CD224AF4D300668019 /* Base */,
+				9E472CE2224DACF800808AD1 /* ja */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -316,6 +335,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -377,6 +397,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

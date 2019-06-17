@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DocView/ViewController.swift"
+            timestampString = "576141885.418134"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DocView/ViewController.swift"
+            timestampString = "576141885.419847"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DocView.ViewController.LoadProgress.getter : Swift.Float"
+                  moduleName = "DocView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/enchantcode/Desktop/SourceCode/Swift/DocView/DocView/ViewController.swift"
+                  timestampString = "575344556.326049"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DocView.ViewController.LoadProgress.setter : Swift.Float"
+                  moduleName = "DocView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/enchantcode/Desktop/SourceCode/Swift/DocView/DocView/ViewController.swift"
+                  timestampString = "575344556.328413"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "114">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DocView.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; DocView.ViewController"
+                  moduleName = "DocView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/enchantcode/Desktop/SourceCode/Swift/DocView/DocView/ViewController.swift"
+                  timestampString = "575344556.330954"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "643">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DocView.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;DocView.ViewController&gt;"
+                  moduleName = "DocView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/enchantcode/Desktop/SourceCode/Swift/DocView/DocView/ViewController.swift"
+                  timestampString = "575344556.3338701"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "614">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
