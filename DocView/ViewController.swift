@@ -71,8 +71,8 @@ class ViewController: UIViewController,WKNavigationDelegate {
     //--メニューバーの表示/非表示切り替え
     @IBAction func menuhidden(_ sender: Any) {
         //--menuHide(Bool):メニュー表示/非表示
-        self.MenuViewTop.constant=CGFloat(Int(NSNumber(value:menuHide)) * -56)
-        self.HideButton.setTitle(["▲","▼"][Int(NSNumber(value:menuHide))], for: UIControl.State.normal)
+        self.MenuViewTop.constant=CGFloat(Int(truncating: NSNumber(value:menuHide)) * -56)
+        self.HideButton.setTitle(["▲","▼"][Int(truncating: NSNumber(value:menuHide))], for: UIControl.State.normal)
         self.menuHide = !(self.menuHide);
         
         //--検索バーを透明にしながら上に持っていく
@@ -80,15 +80,6 @@ class ViewController: UIViewController,WKNavigationDelegate {
             self.searchBar.alpha=CGFloat(truncating: NSNumber(value:self.menuHide));
             self.view.layoutIfNeeded();
         }
-    }
-    
-    //--ブックマークに追加
-    @IBAction func AddBookMark(_ sender: Any) {
-        //--画面遷移した方が楽か…
-        let next=self.storyboard?.instantiateViewController(withIdentifier: "AddBMScreen") as! AddBMViewController;
-        
-        //--遷移
-        show(next, sender: nil);
     }
     
     //--終了時(?)オブザーバを削除
