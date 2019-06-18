@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9E472CE0224D976900808AD1 /* UIColorHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E472CDF224D976900808AD1 /* UIColorHex.swift */; };
+		9EC226B422B8B23A00353D47 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC226B322B8B23A00353D47 /* WebKit.framework */; };
 		9EF0A9C4224AF4D100668019 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF0A9C3224AF4D100668019 /* AppDelegate.swift */; };
 		9EF0A9C6224AF4D100668019 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF0A9C5224AF4D100668019 /* ViewController.swift */; };
 		9EF0A9C9224AF4D100668019 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EF0A9C7224AF4D100668019 /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 		9E472CDF224D976900808AD1 /* UIColorHex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorHex.swift; sourceTree = "<group>"; };
 		9E472CE1224DACF800808AD1 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
 		9E472CE2224DACF800808AD1 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		9EC226B322B8B23A00353D47 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		9EF0A9C0224AF4D100668019 /* DocView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EF0A9C3224AF4D100668019 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EF0A9C5224AF4D100668019 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EC226B422B8B23A00353D47 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +85,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9EC226B222B8B23A00353D47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9EC226B322B8B23A00353D47 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9EF0A9B7224AF4D100668019 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +100,7 @@
 				9EF0A9D7224AF4D300668019 /* DocViewTests */,
 				9EF0A9E2224AF4D300668019 /* DocViewUITests */,
 				9EF0A9C1224AF4D100668019 /* Products */,
+				9EC226B222B8B23A00353D47 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
